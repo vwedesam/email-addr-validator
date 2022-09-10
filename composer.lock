@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "198b167673c61c5f32ecd8acd438b2be",
+    "packages": [
+        {
+            "name": "nojacko/email-data-disposable",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nojacko/email-data-disposable.git",
+                "reference": "f78f2d81902e4043b96f2bdcceeac7eb2a004165"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nojacko/email-data-disposable/zipball/f78f2d81902e4043b96f2bdcceeac7eb2a004165",
+                "reference": "f78f2d81902e4043b96f2bdcceeac7eb2a004165",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "league/climate": "^3.2",
+                "php-curl-class/php-curl-class": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EmailData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Jackson",
+                    "email": "git@nojacko.com"
+                }
+            ],
+            "description": "Disposable email domains",
+            "support": {
+                "issues": "https://github.com/nojacko/email-data-disposable/issues",
+                "source": "https://github.com/nojacko/email-data-disposable/tree/master"
+            },
+            "abandoned": true,
+            "time": "2017-07-12T10:55:04+00:00"
+        },
+        {
+            "name": "nojacko/email-validator",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nojacko/email-validator.git",
+                "reference": "fbd98fdcf373ddbe09843c3ad5a7db9bc3651c3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nojacko/email-validator/zipball/fbd98fdcf373ddbe09843c3ad5a7db9bc3651c3b",
+                "reference": "fbd98fdcf373ddbe09843c3ad5a7db9bc3651c3b",
+                "shasum": ""
+            },
+            "require": {
+                "nojacko/email-data-disposable": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EmailValidator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Jackson",
+                    "email": "nojacko@gmail.com",
+                    "homepage": "http://jamesdavidjackson.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Small PHP library to valid email addresses using a number of methods.",
+            "keywords": [
+                "MX",
+                "check",
+                "checker",
+                "disposable",
+                "email",
+                "email address",
+                "library",
+                "role",
+                "throwaway",
+                "validater",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/nojacko/email-validator/issues",
+                "source": "https://github.com/nojacko/email-validator/tree/master"
+            },
+            "abandoned": true,
+            "time": "2016-08-09T11:04:18+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

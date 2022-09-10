@@ -1,0 +1,21 @@
+{
+    "name": "nojacko/email-data-disposable",
+    "description": "Disposable email domains",
+    "authors": [
+        {
+            "name": "James Jackson",
+            "email": "git@nojacko.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload" : {
+        "psr-4" : {
+            "EmailData\\": "src/"
+        }
+    },
+    "require-dev": {
+        "league/climate": "^3.2",
+        "php-curl-class/php-curl-class": "~2.1",
+        "ext-intl": "*"
+    }
+}

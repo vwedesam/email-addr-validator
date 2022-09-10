@@ -1,0 +1,46 @@
+@font-face {
+    font-family: roboto;
+    src: url("./Roboto/Roboto-Regular.ttf");
+}
+
+body{
+    font-family: roboto !important;
+    /* background-color: #e9e9e9e9; */
+}
+
+h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p{
+    color:rgb(96, 110, 123)
+}
+
+.checker-contanier{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+}
+
+.checker-contanier input{
+    height: 60px;
+}
+
+.checker-contanier  .input-group-text{
+ background: rgba(2,0,36,1) !important;
+ color: #fff;
+ border-radius: 20px;
+}
+
+.img-info{
+    width: 40px;
+    height: auto;
+}
+
+table td{
+    text-align: left !important;
+}
+table th{
+    border: none !important;
+}

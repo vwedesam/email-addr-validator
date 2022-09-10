@@ -1,0 +1,57 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "67c372a34145067c73b0ce0b78a4953d",
+    "content-hash": "71e60ae2aeaa870054e1f1beda25eda8",
+    "packages": [
+        {
+            "name": "nojacko/email-data-disposable",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nojacko/email-data-disposable.git",
+                "reference": "c41c8683bfe52f58b1a6f09d9640cfafb9f47a61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nojacko/email-data-disposable/zipball/c41c8683bfe52f58b1a6f09d9640cfafb9f47a61",
+                "reference": "c41c8683bfe52f58b1a6f09d9640cfafb9f47a61",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "league/climate": "^3.2",
+                "php-curl-class/php-curl-class": "~2.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "EmailData\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "James Jackson",
+                    "email": "git@nojacko.com"
+                }
+            ],
+            "description": "Disposable email domains",
+            "time": "2015-12-15 22:30:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

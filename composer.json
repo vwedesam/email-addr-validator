@@ -1,0 +1,22 @@
+{
+    "name": "vwedesam/email-addr-validator",
+    "version": "0.0.0",
+    "type": "package",
+    "description": "A php project to valid email addresses.",
+    "autoload": {
+        "psr-4": {}
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Samuel Eshemiedomi",
+            "email": "Eshemiedomisamuelb@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "nojacko/email-validator": "~1.0"
+    }
+}
