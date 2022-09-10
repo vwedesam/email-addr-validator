@@ -9,11 +9,13 @@ PHP project for email address validation
 * Checks for **MX records** (i.e. can receive email)
 
 
-* [sample app](https://github.com/vwedesam/email-addr-validator/blob/main/Screenshot%202022-09-10%20at%2011.49.12%20PM.png)
+![sample app](https://github.com/vwedesam/email-addr-validator/blob/main/Screenshot%202022-09-10%20at%2011.49.12%20PM.png)
 
 ### Contributors
 * [SamVwede](https://github.com/vwedesam)
 * [Erisan Akorede](https://gitlab.com/erisan)
 
+### Packages used
+* [nojacko/email-validator](https://github.com/nojacko/email-validator)
 ## License
 The MIT License (MIT). See LICENCE file.
